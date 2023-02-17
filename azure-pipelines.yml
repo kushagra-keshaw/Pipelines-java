@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: KushagraPC
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
